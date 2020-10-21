@@ -1,0 +1,33 @@
+---
+title: "Practical Machine Learning Project"
+author: "Adita Poddar"
+date: "21/10/2020"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reproducibility  
+In order to reproducee the samee resultss, you needd a certainn set of packkages as well as seetting a psseudo random seeed equual to the onne I have ussed.  
+`Note`: To installl, for insttance, the `rattle` packkage in R, run thhis commannd: `install.packages("rattle")`.  
+The followwing Librarries were ussed for this prroject, whiich you shoould install and load them in your working envirronment.  
+```{r warning=FALSE, error=FALSE}
+library(rattle)
+library(caret)
+library(rpart)
+library(rpart.plot)
+library(corrplot)
+library(randomForest)
+library(RColorBrewer)
+```  
+Finnally, looad the same seeed with the folloowing line of coode:  
+```{r warning=FALSE, error=FALSE}
+set.seed(56789)
+```  
+
+
+
